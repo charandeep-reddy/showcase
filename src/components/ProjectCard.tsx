@@ -44,7 +44,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           ))}
         </div>
 
-        <Link href={project.url} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex items-center gap-1 text-sm font-medium text-zinc-900 transition-colors group-hover:text-zinc-600 hover:underline">
+        <Link href={project.url} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex items-center gap-1 text-sm font-medium text-zinc-900 transition-colors group-hover:text-zinc-600 hover:underline cursor-pointer">
           Visit Project
           <span className="transition-transform duration-200 group-hover:translate-x-0.5">
             ↗
